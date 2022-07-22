@@ -1,23 +1,39 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import StepOne from "./components/StepOne";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import StepTwo from "./components/StepTwo";
+import StepThree from "./components/StepThree";
+import Final from "./components/Final";
+import Error404 from "./components/Error404";
+import { useState } from "react";
 
 function App() {
+  let [form, setForm] = useState({
+    name: "",
+    surname: "",
+    gender: "",
+    city: "",
+    email: "",
+    password: "",
+  });
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="container">
+      <div className="brand-box">
+        <h1>Arneca MultiForm</h1>
+        <p>My first intern project at Arneca</p>
+      </div>
+      <div className="magic-form">
+        <BrowserRouter>
+          <Routes>
+            <Route index element={<StepOne form={form} setForm={setForm} />}  />
+            <Route path="StepTwo" element={<StepTwo form={form} setForm={setForm}  />}/>
+            <Route path="StepThree" element={<StepThree form={form} setForm={setForm}  />} />
+            <Route path="Final" element={<Final form={form}/>} />
+            <Route path="*" element={<Error404 />} />
+          </Routes>
+        </BrowserRouter>
+      </div>
     </div>
   );
 }
