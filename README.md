@@ -1,70 +1,29 @@
-# Getting Started with Create React App
+## Bu proje staj yaptığım firmadaki takım liderimin isterlerine göre geliştirilmiştir. 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### Ayrıca bu proje benim ilk react projemdir.
 
-## Available Scripts
+### Bu proje multistep register adımlarını kapsamaktadır.
 
-In the project directory, you can run:
+### Formik ile form yönetimi sağlandıktan sonra Yup ile validation işlemleri yapılmıştır.
 
-### `npm start`
+### Multistep mantığı için React Router kullanılmıştır.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Bu projede Component, Props, useState, useNavigate, React Router, Form Yönetimi kullanılmıştır.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Kayıt ol ekranı:
+![image1](https://user-images.githubusercontent.com/70768778/180705245-2872f67e-2fa8-47af-b013-ae9ffadc0baf.png)
 
-### `npm test`
+Validation ile kontrol sağlanması:
+![image2](https://user-images.githubusercontent.com/70768778/180705413-57c3843e-e440-470d-9037-72e4dfebbe77.png)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Şehir bilgilerinin çekilmesi:
+![image3)](https://user-images.githubusercontent.com/70768778/180705512-687c1e00-4126-4bb2-84b7-016b2e04657d.png)
 
-### `npm run build`
+Eksik girilen mail için validation işlemi:
+![image4](https://user-images.githubusercontent.com/70768778/180705564-ed78bf37-ae39-4cdf-b739-c38cab8104c1.png)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Girilen bilgilerin ekranda gösterilmesi:
+![image5](https://user-images.githubusercontent.com/70768778/180705637-fb8b651a-8a09-4fbc-887a-675a64de8162.png)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Farklı bir URL'e istek atıldığında karşılaştığımız 404 error sayfası:
+![image6](https://user-images.githubusercontent.com/70768778/180705675-f2992035-2638-403b-bf96-b2b1a36130b8.png)
