@@ -1,14 +1,14 @@
 ## Bu proje staj yaptığım firmadaki takım liderimin isterlerine göre geliştirilmiştir. 
 
-### Ayrıca bu proje benim ilk react projemdir.
+- Ayrıca bu proje benim ilk react projemdir.
 
-### Bu proje multistep register adımlarını kapsamaktadır.
+- Bu proje multistep register adımlarını kapsamaktadır.
 
-### Formik ile form yönetimi sağlandıktan sonra Yup ile validation işlemleri yapılmıştır.
+- Formik ile form yönetimi sağlandıktan sonra Yup ile validation işlemleri yapılmıştır.
 
-### Multistep mantığı için React Router kullanılmıştır.
+- Multistep mantığı için React Router kullanılmıştır.
 
-### Bu projede Component, Props, useState, useNavigate, React Router, Form Yönetimi kullanılmıştır.
+- Bu projede Component, Props, useState, useNavigate, React Router, Form Yönetimi kullanılmıştır.
 
 Kayıt ol ekranı:
 ![image1](https://user-images.githubusercontent.com/70768778/180705245-2872f67e-2fa8-47af-b013-ae9ffadc0baf.png)
